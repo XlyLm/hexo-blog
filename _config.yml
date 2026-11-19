@@ -104,4 +104,9 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  # 类型
+  type: git
+  # 仓库
+  repo: git@github.com:XlyLm/XlyLm.github.io.git
+  # 分支
+  branch: master
